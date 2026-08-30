@@ -8,6 +8,6 @@ As it can be seen in the uploaded files, RK4 execution time is 4 times longer th
 Euler is the worst method by far, it does not even maintain reasonable trajectories using relatively small dts such as one day and its relative error is on the order of 10^-2.
 It is not simplectic either so its error gradually increases.
 
-Euler cromer is such a huge improvement, its error is acceptable and its computing time is about the same.
+Euler cromer is a huge improvement, its error is acceptable and its computing time is about the same.
 
 If I had to pick the best method, I would have to go with verlet, it is simplectic and computationally efficient compared to RK4 which tends to accumulate error over long simulations.
